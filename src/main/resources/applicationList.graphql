@@ -6,12 +6,12 @@ query Application($page: Int, $aggWindow: AggregationWindow) {
     sortBy: "totalBytes",
     sortOrder: ASC
   ) {
-    application {
+    applications {
     appName
     userCount
     totalBytes
     rxBytes
-    txBytes 
+    txBytes
     aggWindow
     aggUpdated
     }
